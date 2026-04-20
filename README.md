@@ -1,20 +1,4 @@
-# 🎮 Brawl Stats Tracker
-
-[![GitHub Release][release-badge]][release-url]
-[![HACS][hacs-badge]][hacs-url]
-[![License][license-badge]][license-url]
-[![Home Assistant][ha-badge]][ha-url]
-
-[release-badge]: https://img.shields.io/github/v/release/KingDando8430/ha-brawl-stats-tracker-lab?style=flat-square
-[release-url]: https://github.com/KingDando8430/ha-brawl-stats-tracker-lab/releases
-[hacs-badge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square
-[hacs-url]: https://github.com/hacs/integration
-[license-badge]: https://img.shields.io/github/license/KingDando8430/ha-brawl-stats-tracker-lab?style=flat-square
-[license-url]: LICENSE
-[ha-badge]: https://img.shields.io/badge/Home%20Assistant-2023.6%2B-blue?style=flat-square
-[ha-url]: https://www.home-assistant.io/
-
-**[🇩🇪 Deutsche Version](#-brawl-stats-tracker--deutsch)**
+# Brawl Stats Tracker - Home Assistant Integration
 
 A custom [Home Assistant](https://www.home-assistant.io/) integration that pulls live **Brawl Stars** player statistics from the official [Brawl Stars API](https://developer.brawlstars.com) and exposes them as sensor entities — perfect for dashboards, automations, and family leaderboards.
 
