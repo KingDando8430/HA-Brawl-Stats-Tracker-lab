@@ -89,7 +89,7 @@ To **add or remove players** or **change the update interval** after setup, clic
 4. Enter a name and your **current public IP address** (make sure to use the public IP address **of your router**)
 5. Copy the generated key
 
-> **Note:** The API key is locked to the IP address you enter. If your router's IP changes (e.g. after a reconnect), create a new key or update the allowed IP on the developer portal.
+> **Note:** The API key is locked to the IP address you enter. If your router's IP changes, create a new key or update the allowed IP on the developer portal.
 
 ---
 
