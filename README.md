@@ -83,7 +83,7 @@ To **add or remove players** or **change the update interval** after setup, clic
 
 ### Getting a free API key
 
-1. Visit [developer.brawlstars.com/#/account](https://developer.brawlstars.com/#/account)
+1. Visit [developer.brawlstars.com](https://developer.brawlstars.com/#/account)
 2. Log in with your Supercell ID
 3. Click **New Key**
 4. Enter a name and your **current public IP address** (make sure to use the public IP address **of your router**)
