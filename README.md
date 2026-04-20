@@ -6,7 +6,7 @@ A custom [Home Assistant](https://www.home-assistant.io/) integration that pulls
 
 ## ✨ Features
 
-- **15 sensors per player** — all from the official Supercell API, nothing scraped
+- **15 sensors per player** — all from the official Supercell API
 - **One entry, multiple players** — add several player tags at once; each player appears as its own child device under the shared entry device
 - **Multiple entries supported** — use different API keys or player groups by adding the integration more than once
 - **UI-based setup** via Config Flow — no YAML required
@@ -19,23 +19,23 @@ A custom [Home Assistant](https://www.home-assistant.io/) integration that pulls
 
 ## 📊 Sensors
 
-| Sensor | Enabled by default | Notes |
-|---|---|---|
-| Trophies | ✅ | Current trophy count |
-| Highest Trophies | ✅ | All-time personal record |
-| EXP Level | ✅ | Experience level |
-| EXP Points | ✅ | Total experience points |
-| 3v3 Victories | ✅ | Total wins in 3v3 modes |
-| Solo Showdown Victories | ✅ | Total Solo Showdown wins |
-| Duo Showdown Victories | ✅ | Total Duo Showdown wins |
-| Best Robo Rumble Time | ✅ | Best survival time (minutes) |
-| Best Time as Big Brawler | ✅ | Best survival time (seconds) |
-| Unlocked Brawlers | ✅ | Number of brawlers owned |
-| Highest Power Play Points | ❌ | Legacy field |
-| Championship Qualified | ❌ | Boolean |
-| Player Name | ❌ | |
-| Player Tag | ❌ | |
-| Club Name | ❌ | |
+| Sensor | Notes | Enabled by default | Notes |
+|---|---|---|---|
+| Trophies | Current trophy count | ✅ |
+| Highest Trophies | All-time personal record | ✅ |
+| EXP Level | Experience level | ✅ |
+| EXP Points | Total experience points | ✅ |
+| 3v3 Victories | Total wins in 3v3 modes | ✅ |
+| Solo Showdown Victories | Total Solo Showdown wins | ✅ |
+| Duo Showdown Victories | Total Duo Showdown wins | ✅ |
+| Best Robo Rumble Time | Best survival time (minutes) | ✅ |
+| Best Time as Big Brawler | Best survival time (seconds) | ✅ |
+| Unlocked Brawlers | Number of brawlers owned | ✅ |
+| Highest Power Play Points | Legacy field | ❌ |
+| Championship Qualified | Boolean | ❌ |
+| Player Name | | ❌ |
+| Player Tag | | ❌ |
+| Club Name | | ❌ |
 
 > Disabled sensors can be enabled individually in the entity settings.
 
@@ -44,23 +44,22 @@ A custom [Home Assistant](https://www.home-assistant.io/) integration that pulls
 ## 🔧 Installation
 
 ### HACS (recommended)
+1. Install Integration via HACS
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](PLACEHOLDER_HACS_LINK)
+<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=KingDando8430&repository=HA-Brawl-Stats-Tracker&category=integration" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open your Home Assistant instance and open a repository inside the Home Assistant Community Store." /></a>
 
-1. Open **HACS** in Home Assistant
-2. Go to **Integrations → ⋮ → Custom repositories**
-3. Add `https://github.com/KingDando8430/ha-brawl-stats-tracker` — category **Integration**
-4. Search for **Brawl Stats Tracker** and click **Download**
-5. Restart Home Assistant
+2. Restart Home Assistant
+
+<a href="https://my.home-assistant.io/redirect/repairs/" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/repairs.svg" alt="Open your Home Assistant instance and show your repairs." /></a>
+
+3. Add integration to Home Assistant
+
+<a href="https://my.home-assistant.io/redirect/integration/?domain=brawl_stats_tracker" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/integration.svg" alt="Open your Home Assistant instance and show an integration." /></a>
 
 ### Manual
-
-1. Download the [latest release](https://github.com/KingDando8430/ha-brawl-stats-tracker/releases/latest)
-2. Copy the folder `custom_components/brawl_stats_tracker/` into your HA config directory:
-   ```
-   /config/custom_components/brawl_stats_tracker/
-   ```
-3. Restart Home Assistant
+1. Copy the `custom_components/daily_bible_text/` folder to `/config/custom_components/`
+2. Restart Home Assistant
+3. Add integration to Home Assistant
 
 ---
 
