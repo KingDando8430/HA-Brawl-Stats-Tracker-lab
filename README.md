@@ -123,4 +123,4 @@ automation:
 
 [MIT](LICENSE) © KingDando8430
 
-> This project is not affiliated with, endorsed, sponsored, or specifically approved by Supercell. For more information see [Supercell's Fan Content Policy](https://supercell.com/en/fan-content-policy/).
+> This project is unofficial and is not affiliated with, endorsed, sponsored, or specifically approved by Supercell. For more information see [Supercell's Fan Content Policy](https://supercell.com/en/fan-content-policy/).
