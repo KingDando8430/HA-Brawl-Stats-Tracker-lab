@@ -5,11 +5,11 @@
 [![License][license-badge]][license-url]
 [![Home Assistant][ha-badge]][ha-url]
 
-[release-badge]: https://img.shields.io/github/v/release/YOUR_USERNAME/ha-brawl-stats-tracker?style=flat-square
-[release-url]: https://github.com/YOUR_USERNAME/ha-brawl-stats-tracker/releases
+[release-badge]: https://img.shields.io/github/v/release/KingDando8430/ha-brawl-stats-tracker?style=flat-square
+[release-url]: https://github.com/KingDando8430/ha-brawl-stats-tracker/releases
 [hacs-badge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square
 [hacs-url]: https://github.com/hacs/integration
-[license-badge]: https://img.shields.io/github/license/YOUR_USERNAME/ha-brawl-stats-tracker?style=flat-square
+[license-badge]: https://img.shields.io/github/license/KingDando8430/ha-brawl-stats-tracker?style=flat-square
 [license-url]: LICENSE
 [ha-badge]: https://img.shields.io/badge/Home%20Assistant-2023.6%2B-blue?style=flat-square
 [ha-url]: https://www.home-assistant.io/
@@ -65,13 +65,13 @@ A custom [Home Assistant](https://www.home-assistant.io/) integration that pulls
 
 1. Open **HACS** in Home Assistant
 2. Go to **Integrations → ⋮ → Custom repositories**
-3. Add `https://github.com/YOUR_USERNAME/ha-brawl-stats-tracker` — category **Integration**
+3. Add `https://github.com/KingDando8430/ha-brawl-stats-tracker` — category **Integration**
 4. Search for **Brawl Stats Tracker** and click **Download**
 5. Restart Home Assistant
 
 ### Manual
 
-1. Download the [latest release](https://github.com/YOUR_USERNAME/ha-brawl-stats-tracker/releases/latest)
+1. Download the [latest release](https://github.com/KingDando8430/ha-brawl-stats-tracker/releases/latest)
 2. Copy the folder `custom_components/brawl_stats_tracker/` into your HA config directory:
    ```
    /config/custom_components/brawl_stats_tracker/
@@ -159,7 +159,7 @@ Issues and pull requests are welcome. Please open an issue first for larger chan
 
 ## ⚖️ License
 
-[MIT](LICENSE) © YOUR_USERNAME
+[MIT](LICENSE) © KingDando8430
 
 > This project is not affiliated with, endorsed, sponsored, or specifically approved by Supercell. For more information see [Supercell's Fan Content Policy](https://supercell.com/en/fan-content-policy/).
 
@@ -219,13 +219,13 @@ Eine Custom Integration für [Home Assistant](https://www.home-assistant.io/), d
 
 1. **HACS** in Home Assistant öffnen
 2. **Integrationen → ⋮ → Benutzerdefinierte Repositories**
-3. `https://github.com/YOUR_USERNAME/ha-brawl-stats-tracker` hinzufügen — Kategorie **Integration**
+3. `https://github.com/KingDando8430/ha-brawl-stats-tracker` hinzufügen — Kategorie **Integration**
 4. Nach **Brawl Stats Tracker** suchen und **Herunterladen** klicken
 5. Home Assistant neu starten
 
 ### Manuell
 
-1. Neueste Version von der [Releases-Seite](https://github.com/YOUR_USERNAME/ha-brawl-stats-tracker/releases/latest) herunterladen
+1. Neueste Version von der [Releases-Seite](https://github.com/KingDando8430/ha-brawl-stats-tracker/releases/latest) herunterladen
 2. Ordner `custom_components/brawl_stats_tracker/` in das HA-Konfigurationsverzeichnis kopieren:
    ```
    /config/custom_components/brawl_stats_tracker/
@@ -313,6 +313,6 @@ Issues und Pull Requests sind willkommen. Bitte vorher ein Issue für größere 
 
 ## ⚖️ Lizenz
 
-[MIT](LICENSE) © YOUR_USERNAME
+[MIT](LICENSE) © KingDando8430
 
 > Dieses Projekt ist nicht mit Supercell verbunden und wird nicht von Supercell unterstützt. Weitere Informationen in der [Supercell Fan Content Policy](https://supercell.com/en/fan-content-policy/).
