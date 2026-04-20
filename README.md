@@ -73,7 +73,7 @@ A custom [Home Assistant](https://www.home-assistant.io/) integration that pulls
 
 | Field | Description |
 |---|---|
-| API Key | From [developer.brawlstars.com/#/account](https://developer.brawlstars.com/#/account) |
+| API Key | From [developer.brawlstars.com](https://developer.brawlstars.com/#/account) |
 | Player Tags | One or more tags, comma-separated — e.g. `#ABC123, #XYZ456` |
 | Update interval | Seconds between refreshes (min 60, default 300) |
 
