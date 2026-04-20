@@ -1,0 +1,64 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set Up Brawl Stats Tracker",
+        "description": "Enter your Brawl Stars API key. You can generate one for free on the [Brawl Stars Developer page](https://developer.brawlstars.com/#/account).\n\n**Important:** The API key is bound to your current public IP address. If your IP changes, you must create a new key.",
+        "data": {
+          "api_token": "API Key",
+          "player_tags": "Player Tags (comma-separated, e.g. #ABC123, #XYZ456)",
+          "scan_interval": "Update interval (seconds)"
+        },
+        "data_description": {
+          "api_token": "Your personal API key from developer.brawlstars.com",
+          "player_tags": "Find tags in-game under Profile → top right corner. Separate multiple tags with a comma.",
+          "scan_interval": "Minimum 60, recommended: 300 (5 minutes)"
+        }
+      }
+    },
+    "error": {
+      "invalid_tag": "One or more player tags not found. Please check the tags.",
+      "invalid_auth": "Invalid API key or your IP address is not whitelisted.",
+      "cannot_connect": "Could not connect to the Brawl Stars API. Please check your internet connection.",
+      "unknown": "Unknown error. Please try again."
+    },
+    "abort": {
+      "already_configured": "This API key is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update Settings",
+        "description": "Add or remove player tags, or change the update interval.",
+        "data": {
+          "player_tags": "Player Tags (comma-separated)",
+          "scan_interval": "Update interval (seconds)"
+        },
+        "data_description": {
+          "player_tags": "Separate multiple tags with a comma, e.g. #ABC123, #XYZ456",
+          "scan_interval": "Minimum 60, recommended: 300 (5 minutes). Changes take effect after reload."
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "trophies":                   { "name": "Trophies" },
+      "highest_trophies":           { "name": "Highest Trophies" },
+      "exp_level":                  { "name": "EXP Level" },
+      "exp_points":                 { "name": "EXP Points" },
+      "3v3_victories":              { "name": "3v3 Victories" },
+      "solo_victories":             { "name": "Solo Showdown Victories" },
+      "duo_victories":              { "name": "Duo Showdown Victories" },
+      "best_robo_rumble_time":      { "name": "Best Robo Rumble Time" },
+      "best_time_as_big_brawler":   { "name": "Best Time as Big Brawler" },
+      "brawler_count":              { "name": "Unlocked Brawlers" },
+      "highest_power_play_points":  { "name": "Highest Power Play Points" },
+      "is_qualified_championship":  { "name": "Championship Qualified" },
+      "player_name":                { "name": "Player Name" },
+      "player_tag":                 { "name": "Player Tag" },
+      "club_name":                  { "name": "Club Name" }
+    }
+  }
+}

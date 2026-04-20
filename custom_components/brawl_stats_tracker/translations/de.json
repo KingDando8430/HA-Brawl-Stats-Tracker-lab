@@ -1,0 +1,64 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Brawl Stats Tracker einrichten",
+        "description": "Gib deinen Brawl Stars API-Schlüssel ein. Du kannst ihn kostenlos auf der [Brawl Stars Developer-Seite](https://developer.brawlstars.com/#/account) erstellen.\n\n**Wichtig:** Der API-Schlüssel ist an deine aktuelle öffentliche IP-Adresse gebunden. Wenn sich deine IP ändert, musst du einen neuen Schlüssel anlegen.",
+        "data": {
+          "api_token": "API-Schlüssel",
+          "player_tags": "Spieler-Tags (kommagetrennt, z.\u202fB. #ABC123, #XYZ456)",
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        },
+        "data_description": {
+          "api_token": "Dein persönlicher API-Schlüssel von developer.brawlstars.com",
+          "player_tags": "Den Tag findest du im Spiel unter Profil → oben rechts. Mehrere Tags mit Komma trennen.",
+          "scan_interval": "Mindestens 60, empfohlen: 300 (5 Minuten)"
+        }
+      }
+    },
+    "error": {
+      "invalid_tag": "Ein oder mehrere Spieler-Tags wurden nicht gefunden. Bitte überprüfe die Tags.",
+      "invalid_auth": "Ungültiger API-Schlüssel oder deine IP-Adresse ist nicht erlaubt.",
+      "cannot_connect": "Verbindung zur Brawl Stars API fehlgeschlagen. Bitte prüfe deine Internetverbindung.",
+      "unknown": "Unbekannter Fehler. Bitte versuche es erneut."
+    },
+    "abort": {
+      "already_configured": "Dieser API-Schlüssel ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Einstellungen anpassen",
+        "description": "Spieler-Tags hinzufügen oder entfernen und das Aktualisierungsintervall ändern.",
+        "data": {
+          "player_tags": "Spieler-Tags (kommagetrennt)",
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        },
+        "data_description": {
+          "player_tags": "Mehrere Tags mit Komma trennen, z.\u202fB. #ABC123, #XYZ456",
+          "scan_interval": "Mindestens 60, empfohlen: 300 (5 Minuten). Änderungen werden nach dem Neuladen übernommen."
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "trophies":                   { "name": "Trophäen" },
+      "highest_trophies":           { "name": "Höchste Trophäen" },
+      "exp_level":                  { "name": "EXP-Level" },
+      "exp_points":                 { "name": "EXP-Punkte" },
+      "3v3_victories":              { "name": "3v3-Siege" },
+      "solo_victories":             { "name": "Solo Showdown-Siege" },
+      "duo_victories":              { "name": "Duo Showdown-Siege" },
+      "best_robo_rumble_time":      { "name": "Beste Robo-Rumble-Zeit" },
+      "best_time_as_big_brawler":   { "name": "Beste Zeit als Big Brawler" },
+      "brawler_count":              { "name": "Freigeschaltete Brawler" },
+      "highest_power_play_points":  { "name": "Höchste Power-Play-Punkte" },
+      "is_qualified_championship":  { "name": "Championship-Qualifiziert" },
+      "player_name":                { "name": "Spielername" },
+      "player_tag":                 { "name": "Spieler-Tag" },
+      "club_name":                  { "name": "Club-Name" }
+    }
+  }
+}

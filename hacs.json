@@ -1,0 +1,6 @@
+{
+  "name": "Brawl Stats Tracker",
+  "domains": ["sensor"],
+  "iot_class": "cloud_polling",
+  "render_readme": true
+}
