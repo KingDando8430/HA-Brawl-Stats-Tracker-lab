@@ -19,8 +19,8 @@ A custom [Home Assistant](https://www.home-assistant.io/) integration that pulls
 
 ## 📊 Sensors
 
-| Sensor | Notes | Enabled by default | Notes |
-|---|---|---|---|
+| Sensor | Notes | Enabled by default |
+|---|---|---|
 | Trophies | Current trophy count | ✅ |
 | Highest Trophies | All-time personal record | ✅ |
 | EXP Level | Experience level | ✅ |
