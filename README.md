@@ -57,7 +57,7 @@ A custom [Home Assistant](https://www.home-assistant.io/) integration that pulls
 <a href="https://my.home-assistant.io/redirect/integration/?domain=brawl_stats_tracker" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/integration.svg" alt="Open your Home Assistant instance and show an integration." /></a>
 
 ### Manual
-1. Copy the `custom_components/daily_bible_text/` folder to `/config/custom_components/`
+1. Copy the `custom_components/brawl_stats_tracker/` folder to `/config/custom_components/`
 2. Restart Home Assistant
 3. Add integration to Home Assistant
 
