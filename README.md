@@ -99,26 +99,6 @@ Run the setup again to create a second entry (e.g. with a different API key or a
 
 ---
 
-## 💡 Automation Examples
-
-**Daily stats summary at 8 PM:**
-```yaml
-automation:
-  - alias: "Brawl Stars – Daily Stats"
-    trigger:
-      - platform: time
-        at: "20:00:00"
-    action:
-      - service: notify.mobile_app_yourphone
-        data:
-          message: >
-            🎮 {{ states('sensor.playername_trophies') }} trophies |
-            {{ states('sensor.playername_3v3_victories') }} 3v3 wins |
-            {{ states('sensor.playername_brawler_count') }} brawlers
-```
-
----
-
 ## ⚖️ License
 
 MIT License – see [LICENSE](LICENSE)
