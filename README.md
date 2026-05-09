@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/27524281/README.md)
 # Brawl Stats Tracker for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
@@ -27,7 +26,7 @@ Track Brawl Stars player statistics directly in Home Assistant.
 ## Installation via HACS
 
 1. In HACS → **Integrations** → ⋮ → **Custom repositories**
-2. Add: `https://github.com/YOUR_USERNAME/ha-brawl-stats-tracker` — Category: **Integration**
+2. Add: `https://github.com/KingDando8430/HA-Brawl-Stats-Tracker` — Category: **Integration**
 3. Install **Brawl Stats Tracker**
 4. Restart Home Assistant
 
