@@ -1,7 +1,7 @@
 {
-  "domain": "brawl_stats_tracker",
-  "name": "Brawl Stats Tracker",
-  "version": "2.0.0",
+  "domain": "brawl_stats_tracker_lab",
+  "name": "Brawl Stats Tracker Lab",
+  "version": "2.0.0beta",
   "documentation": "https://github.com/KingDando8430/HA-Brawl-Stats-Tracker",
   "issue_tracker": "https://github.com/KingDando8430/HA-Brawl-Stats-Tracker/issues",
   "dependencies": [],
